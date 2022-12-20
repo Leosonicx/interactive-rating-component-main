@@ -1,103 +1,100 @@
 * {
-    border: none;
-    margin: 0;
-    padding: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 :root{
-    --light-grey:  hsl(217, 12%, 63%);
-    --medium-gray: hsl(216, 12%, 54%);
-    --dark-blue: hsl(213, 19%, 18%);
-    --orange: hsl(25, 97%, 53%);
-    --white: hsl(0, 0%, 100%);
-    --very-dark-blue: hsl(216, 12%, 8%);
+  /*Colors*/
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey:  hsl(217, 12%, 63%);
+  --medium-gray: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
 }
 
-body {
+body{
   background-color: var(--very-dark-blue);
   color: var(--white);
   font-family: 'Overpass', sans-serif;
 }
-
-.container {
+.container{
   margin:70px;
-    
+  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.geral {
+.general{
   width: 390px;
   padding: 30px;
   background-color: var(--dark-blue);
   border-radius: 30px;
 }
-.estrela img {
+.star img{
   width: 20px;
   height: 20px;
   border:#212832 solid 16px;
   border-radius: 45px;
 }
 
-h1 {
+h1{
   margin-top: 1.9rem;
   font-weight: 700px;
 }
 
-p {
+p{
   line-height: 30px;
   margin-top: 10px;
   color: var(--light-grey);
-  font-weight: 400px;
-  font-size: 0.938rem;
+ font-weight: 400px;
+ font-size: 0.938rem;
 }
-
-.avaliacao {
+.ratingBtns{
   margin-top: 1rem;
   display: flex;
   justify-content: space-evenly;
 }
-
-.opcao-botao {
+.optionsBtn{
   width: 45px;
   height: 45px;
   color: var(--light-grey);
   background-color: #212832;
-  border: 2px transparent;
+  border:2px transparent;
   border-radius: 40px;
 }
-
-.opcao-botao:hover {
+.optionsBtn:hover{
   cursor: pointer;
   color: var(--white);
   background-color: var(--light-grey);
 }
 
-.botao-enviar { 
+.submitContainer{ 
   margin-top: 1.5rem;
+  
   text-align: center;
   border-radius: 45px;
 }
-
-.botao-enviar button {
+.submitContainer button{
   width: 300px;
+
   font-weight: 700px;
   font-family: 'Overpass', sans-serif;
   letter-spacing: 3px;
+ 
   background-color: var(--orange);
   color: var(--white);
   border-radius: 45px;
-  padding: 10px; 
+  padding: 10px;
+ 
 } 
-
-.active {
+.active{
   background-color: var(--orange);
   color: var(--white);
 }
-
-.botao-enviar button:hover {
+.submitContainer button:hover{
   transition: all 0.3s;
   color: var(--orange);
   cursor: pointer;
-  background:hsl(216, 12%, 54%)
-}
+  background-color: var

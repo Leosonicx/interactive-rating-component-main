@@ -1,45 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" media="(min-width: 375px)" href="Estilizaçao/mobile.css">
-  <link rel="stylesheet" media="(min-width: 1440px)" href="Estilização/desktop.css">
-  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-  <title>Interactive Rating Component</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="Estilizaçao/mobile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
-  <main>
-    <section class="grid-sections section-icon-estrela">
-      <img src="images/icon-star.svg" sizes="17x16" alt="Icone de estrela amarela">
-    </section>
+  <main class="container">
+    <div class="geral">
+      <div class="estrela">
+        <img src="images/icon-star.svg" alt="Icone de estrela" >
+      </div>
 
-    <section class="grid-sections section-conteudo">
-      <header>
-        <h1>
-          How did we do?
-        </h1>
-      </header>
+      <h1>How did we do?</h1>
 
       <p>
-        Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+        Please let us know how we did with your support  request. All feedback is appreciated 
+        to help us improve our offering!  
       </p>
-    </section>
-    
-    <section class="grid-sections section-notas">
-      <ul>
-        <button class="botao-notas" type="submit">1</button>
-        <button class="botao-notas" type="submit">2</button>
-        <button class="botao-notas" type="submit">3</button>
-        <button class="botao-notas" type="submit">4</button>
-        <button class="botao-notas" type="submit">5</button>
-      </ul>
-    </section>
 
-    <section class="grid-sections section-botao-enviar">
-      <button id="botao-enviar" type="submit">Submit</button>
-    </section>
+      <div class="avaliacao">
+        <button class="opcao-botao">1</button>
+        <button class="opcao-botao">2</button>
+        <button class="opcao-botao">3</button>
+        <button class="opcao-botao">4</button>
+        <button class="opcao-botao">5</button>
+      </div>
+
+      <div class="botao-enviar">
+        <button>SUBMIT</button>
+      </div>
+    </div>
   </main>
+
+  <script src="JS/script.js"></script>
 </body>
 </html>
